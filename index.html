@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul>
+            <li><img class="logo" src="Logo.png"></li>
+            <li><img class="rectangle" src="Rectangle.png"></li>
+            <li class="user">
+                <img src="Oval.png" class="oval">
+                <ul class="user-interface">
+                    <li>My Stroken</li>
+                    <li>Parametres</li>
+                    <li>Deconnexion</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#"></a>Aceuil</li>
+            <li>
+                <a href="#"></a>Finances</li>
+            <li>
+                <a href="#"></a>Societe</li>
+            <li>
+                <a href="#"></a>Politique</li>
+            <li>
+                <a href="#"></a>Sport</li>
+            <li>
+                <a href="#"></a>Tech</li>
+            <li>
+                <a href="#"></a>Startup</li>
+            <li><a href="#">Expert</a></li>
+            <li><a href="#">Annuaire</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="container-first">
+            <div class="post">
+                <img src="Featured Post.png" alt="">
+            </div>
+            <div class="container-first-cont">
+                <div>
+                    <img src="image.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero, fugit recusandae tempora id architecto.</p>
+                </div>
+                <div>
+                    <img src="image.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero, fugit recusandae tempora id architecto.</p>
+                </div>
+                <div>
+                    <img src="image.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero, fugit recusandae tempora id architecto.</p>
+                </div>
+            </div>
+            <div class="container-first-con">
+                <div>
+                    <img src="image.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero, fugit recusandae tempora id architecto.</p>
+                </div><span class="bar"></span>
+                <div>
+                    <img src="image.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero, fugit recusandae tempora id architecto.</p>
+                </div><span class="bar"></span>
+                <div>
+                    <img src="image.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero, fugit recusandae tempora id architecto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-last">
+            <p class="container-last-title">La une des journaux</p>
+            <div class="bar"></div>
+            <img src="Rectangle 4.png" class="imgs">
+            <img src="Sidebar AD.png" class="imgs">
+            <div class="conatainer-last-dis">
+                <img src="Rectangle1.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in inventore, dolor fugit.</p>
+            </div>
+            <div class="conatainer-last-dis">
+                <img src="Rectangle1.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in inventore, dolor fugit.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const oval = document.querySelector('.oval');
+        oval.addEventListener('click', (e) => {
+            oval.parentElement.lastElementChild.classList.toggle('user-interface');
+            oval.parentElement.lastElementChild.classList.toggle('interface');
+        })
+    </script>
+</body>
+
+</html>
